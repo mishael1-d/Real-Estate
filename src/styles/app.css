@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/background.jpg');
+    background-position: center;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.navigation {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    margin: 0 20px;
+}
+
+.logo {
+    color: #B23838;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.link {
+    list-style: none;
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signin, .signup {
+    font-size: 15px;
+}
+.signin {
+    background: #B23838;
+    padding: 8px 12px;
+    color: #fff;
+}
+.signup {
+    margin-left: 10px;
+    border: 2px solid #B23838;
+    padding: 6px 10px;
+}
+.signin:hover{
+    border: 2px solid #B23838;
+    padding: 6px 10px;
+    color: #000;
+    background: none;
+    cursor: pointer;
+}
+.signup:hover{
+    background: #B23838;
+    padding: 6px 10px;
+    color: #fff;
+    cursor: pointer;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 20px 0 20px;
+}
+.text_content {
+    max-width: 400px;
+}
+.text_content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.input {
+    width: 350px;
+    height: auto;
+    background: #E7EBF4;
+    margin-right: 100px;
+    margin-top: -30px;
+}
+.input-content {
+    margin: 20px;
+}
+.input-content p {
+    margin-bottom: 10px;
+}
+.input-content input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    padding-left: 5px;
+}
+.input-content button {
+    padding: 5px 10px;
+    background: #B23838;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
