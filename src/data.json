@@ -1,0 +1,28 @@
+{
+    "apartment-1" : {
+    "id": 0,
+    "category": "3-bedroom",
+    "location": "connecticut",
+    "description": "A 3-bedroom apartment for rent well furnished.",
+    "price": 0,
+    "image": "https://cdngeneral.rentcafe.com/dmslivecafe/3/784114/Final%20Jones%20St%20-%20Town%20Walk%20Kitchen,%20Living%20Area%20300dpi.jpg?width=380"
+    },
+    "apartment-2" : {
+        "id": 1,
+        "category": "3-bedroom",
+        "location": "connecticut",
+        "description": "A 3-bedroom apartment for rent well furnished.",
+        "price": 0,
+        "image": "https://rentpath-res.cloudinary.com/w_336,h_280,t_rp,cs_tinysrgb,fl_force_strip,c_fill/e_unsharp_mask:50,q_auto/746ffb5573a49d6801945078f15b69fa"
+        },
+        "apartment-3" : {
+            "id": 2,
+            "category": "3-bedroom",
+            "location": "connecticut",
+            "description": "A 3-bedroom apartment for rent well furnished.",
+            "price": 0,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd3q3QDnhmHjEOTPVtWORIn_xVFilCcOltqsrvIvkG3S6JCLSgFK9i4qK5jtWy9zap3dA&usqp=CAU"
+            }
+}
+
+

@@ -1,0 +1,15 @@
+.error {
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+    text-transform: capitalize;
+}
+
+h2 {
+    margin: 20px 0;
+}
+span {
+    color: #B23838;
+    text-decoration: underline;
+    cursor: pointer;
+}

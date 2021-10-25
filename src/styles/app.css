@@ -43,8 +43,7 @@
     list-style: none;
     margin-left: 30px;
     text-transform: capitalize;
-    font-size: 17px;
-    font-weight: bold;
+    font-size: 15px;
     cursor: pointer;
 }
 .signin, .signup {

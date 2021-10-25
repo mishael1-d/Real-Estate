@@ -11,7 +11,7 @@ function Navbar() {
                 <li className="link">about</li>
                 <li className="link">properties</li>
                 <li className="link">find a home</li>
-                <li className="link">contatct us</li>
+                <li className="link">contact us</li>
             </ul>
             <div className="action">
                 <span className="signin">Signin</span>
