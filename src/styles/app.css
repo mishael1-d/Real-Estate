@@ -240,15 +240,16 @@
     font-weight: 30px;
     margin-bottom: 40px;
   }
-  .text_content input {
+  .search-container input {
     border-bottom-left-radius: 8px;
     border-top-left-radius: 8px;
     border: none;
     outline: none;
     height: 60px;
     width: 350px;
+    font-size: 15px;
   }
-  .text_content input::placeholder {
+  .search-container input::placeholder {
     font-size: 15px;
     color: gray;
     font-style: italic;
