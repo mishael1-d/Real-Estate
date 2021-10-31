@@ -16,7 +16,7 @@ const Content = () => {
               id=""
               placeholder="Location, City, Area Code"
             />
-            <button type="submit"></button>
+            <button type="submit" className="search-button"></button>
           </div>
         </div>
         {/* {data.map((image, index)=>{
