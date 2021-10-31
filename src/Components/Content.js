@@ -26,43 +26,47 @@ const Content = () => {
             })} */}
         {/* <img src={data[0]} alt="" srcset="" /> */}
       </div>
-      <div className="bottom-text">
-        <h1>See how we can help</h1>
-        <img
-          src="https://www.trulia.com/images/icons/txl3/illustrations/BuyAHome.svg"
-          alt=""
-          srcset=""
-        />
-        <h2>Buy a home</h2>
-        <p>
-          With over 1 million+ homes for sale available on the website, We
-          can match you with a house you will want to call home.
-        </p>
-        <button>Find a home</button>
-      </div>
-      <div className="bottom-text">
-        <img
-          src="https://www.trulia.com/images/icons/txl3/illustrations/RentAHome.svg"
-          alt=""
-          srcset=""
-        />
-        <h2>Rent a home</h2>
-        <p>
-        With 35+ filters and custom keyword search, We can help you easily find a home or apartment for rent that you'll love.
-        </p>
-        <button>Find a rental</button>
-      </div>
-      <div className="bottom-text">
-        <img
-          src="https://www.trulia.com/images/icons/txl3/illustrations/Neighborhoods.svg"
-          alt=""
-          srcset=""
-        />
-        <h2>See neighborhoods</h2>
-        <p>
-        With more neighborhood insights than any other real estate website, we've captured the color and diversity of communities.
-        </p>
-        <button>Learn More</button>
+      <h1>See how we can help</h1>
+      <div className="bottom-text-container">
+        <div className="bottom-text">
+          <img
+            src="https://www.trulia.com/images/icons/txl3/illustrations/BuyAHome.svg"
+            alt=""
+            srcset=""
+          />
+          <h2>Buy a home</h2>
+          <p>
+            With over 1 million+ homes for sale available on the website, We can
+            match you with a house you will want to call home.
+          </p>
+          <button>Find a home</button>
+        </div>
+        <div className="bottom-text">
+          <img
+            src="https://www.trulia.com/images/icons/txl3/illustrations/RentAHome.svg"
+            alt=""
+            srcset=""
+          />
+          <h2>Rent a home</h2>
+          <p>
+            With 35+ filters and custom keyword search, We can help you easily
+            find a home or apartment for rent that you'll love.
+          </p>
+          <button>Find a rental</button>
+        </div>
+        <div className="bottom-text">
+          <img
+            src="https://www.trulia.com/images/icons/txl3/illustrations/Neighborhoods.svg"
+            alt=""
+            srcset=""
+          />
+          <h2>See neighborhoods</h2>
+          <p>
+            With more neighborhood insights than any other real estate website,
+            we've captured the color and diversity of communities.
+          </p>
+          <button>Learn More</button>
+        </div>
       </div>
       {/* <InputField/> */}
     </div>
