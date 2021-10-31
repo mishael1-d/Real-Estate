@@ -3,7 +3,7 @@ import InputField from './Input-field'
 
 const Content = () => {
   return (
-    <div className="content">
+    <div className="content container">
       <div className="text_content">
         <h2>We're The Next Generation Of Real Estate Agents.</h2>
         <p>

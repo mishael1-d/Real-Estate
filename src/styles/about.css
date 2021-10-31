@@ -1,0 +1,43 @@
+.about {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+h3,h4 {
+    color: #b23838;
+}
+.text {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 50px 150px;
+    opacity: .9;
+}
+.text-box {
+    background: #fff;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.text-box h4 {
+    margin-top: 10px;
+}
+.text-box p {
+    padding: 20px;
+    text-align: justify;
+}
+
+@media  screen and (max-width: 768px) {
+    .about {
+        text-align: center;
+        margin: 50px auto;
+    }
+    .text {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .text-box {
+        background: #eff0f3;
+        max-width: 350px;
+    }
+}

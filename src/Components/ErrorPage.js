@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../src/styles/error.css";
 
 const ErrorPage = () => {
@@ -6,7 +7,7 @@ const ErrorPage = () => {
     <div>
       <div className="error">
           <h2>page not found</h2>
-          <p>please <span>click here </span>to go back home</p>
+          <p>please <Link to="/" className="span">click here </Link>to go back home</p>
       </div>
     </div>
   );

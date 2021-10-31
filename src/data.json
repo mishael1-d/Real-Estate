@@ -1,6 +1,7 @@
 {
     "apartment-1" : {
     "id": 0,
+    "title": "3-bedroom duplex",
     "category": "3-bedroom",
     "location": "connecticut",
     "description": "A 3-bedroom apartment for rent well furnished.",
@@ -9,6 +10,7 @@
     },
     "apartment-2" : {
         "id": 1,
+        "title": "Well-furnished 3-bedroom",
         "category": "3-bedroom",
         "location": "connecticut",
         "description": "A 3-bedroom apartment for rent well furnished.",
@@ -17,6 +19,7 @@
         },
         "apartment-3" : {
             "id": 2,
+            "title": "Decorated Apartment",
             "category": "3-bedroom",
             "location": "connecticut",
             "description": "A 3-bedroom apartment for rent well furnished.",

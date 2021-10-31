@@ -1,0 +1,20 @@
+.menuBtn {
+    display: block;
+}
+.menu-links {
+    position: absolute;
+    right: 0;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background: #b23838;
+    opacity: .98;
+    z-index: 1;
+}
+.page-link {
+    margin: 20px auto;
+}
