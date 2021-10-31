@@ -1,6 +1,6 @@
 import React from "react";
-import InputField from "./Input-field";
-import { data } from "../data";
+// import InputField from "./Input-field";
+// import { data } from "../data";
 
 const Content = () => {
   return (
