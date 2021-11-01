@@ -17,5 +17,8 @@
     z-index: 1;
 }
 .page-link {
+    color: #fff;
     margin: 20px auto;
+    padding: 15px 0;
+    text-align: center;
 }
