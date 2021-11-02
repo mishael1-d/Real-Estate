@@ -1,6 +1,6 @@
 import React from "react";
 // import InputField from "./Input-field";
-// import { data } from "../data";
+import { data } from "../data";
 
 const Content = () => {
   return (
@@ -19,12 +19,6 @@ const Content = () => {
             <button type="submit" className="search-button"></button>
           </div>
         </div>
-        {/* {data.map((image, index)=>{
-              return (
-                <span key={index}><img src={image} alt="" /></span>
-              )
-            })} */}
-        {/* <img src={data[0]} alt="" srcset="" /> */}
       </div>
       <h1>See how we can help</h1>
       <div className="bottom-text-container">
@@ -32,7 +26,6 @@ const Content = () => {
           <img
             src="https://www.trulia.com/images/icons/txl3/illustrations/BuyAHome.svg"
             alt=""
-            srcset=""
           />
           <h2>Buy a home</h2>
           <p>
@@ -44,9 +37,7 @@ const Content = () => {
         <div className="bottom-text">
           <img
             src="https://www.trulia.com/images/icons/txl3/illustrations/RentAHome.svg"
-            alt=""
-            srcset=""
-          />
+            alt=""/>
           <h2>Rent a home</h2>
           <p>
             With 35+ filters and custom keyword search, We can help you easily
@@ -57,9 +48,7 @@ const Content = () => {
         <div className="bottom-text">
           <img
             src="https://www.trulia.com/images/icons/txl3/illustrations/Neighborhoods.svg"
-            alt=""
-            srcset=""
-          />
+            alt=""/>
           <h2>See neighborhoods</h2>
           <p>
             With more neighborhood insights than any other real estate website,
@@ -69,6 +58,17 @@ const Content = () => {
         </div>
       </div>
       {/* <InputField/> */}
+      <div className="explore-homes">
+        <h2>Explore homes that we have</h2>
+        <p>Take a deep dive and browse homes for sale, original neighborhood photos, resident reviews and local insights to find what is right for you.</p>
+        
+        {/* {data.map((image, index)=>{
+              return (
+                <span key={index}><img src={image} alt="" /></span>
+              )
+            })} */}
+        <img src={data[0]} alt="" srcset="" />
+      </div>
     </div>
   );
 };
