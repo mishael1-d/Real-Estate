@@ -371,8 +371,12 @@
     max-width: 350px;
     font-size: 18px;
   }
-  /* .jMNKZk {
+  .image {
+    height: 300px;
+    width: 100%;
+  }
+  .jMNKZk {
     width: 400px !important;
     height: 300px !important;
-  } */
+  }
 }
