@@ -1,6 +1,6 @@
 import React from "react";
+import Slider from "./Slider";
 // import InputField from "./Input-field";
-import { data } from "../data";
 
 const Content = () => {
   return (
@@ -61,14 +61,16 @@ const Content = () => {
       <div className="explore-homes">
         <h2>Explore homes that we have</h2>
         <p>Take a deep dive and browse homes for sale, original neighborhood photos, resident reviews and local insights to find what is right for you.</p>
-        
-        {/* {data.map((image, index)=>{
+      </div>
+        {/* <div className="images">
+        {data.map((image, index)=>{
               return (
                 <span key={index}><img src={image} alt="" /></span>
               )
-            })} */}
-        <img src={data[0]} alt="" srcset="" />
-      </div>
+            })}
+        </div> */}
+        {/* <img src={data[0]} alt="" srcset="" /> */}
+        <Slider/>
     </div>
   );
 };
