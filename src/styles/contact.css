@@ -38,16 +38,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px;
     margin-top: 20px;
 }
 .left div span,
 .left div p{
     color: #fff;
+    width: 63px;
 }
 .left div p {
     font-size: 12px;
-    text-align: right;
+    text-align: justify;
+    width: 150px;
 }
 .right {
     display: flex;

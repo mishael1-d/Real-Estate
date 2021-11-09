@@ -7,15 +7,16 @@ h3,h4 {
 }
 .text {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 50px 150px;
     opacity: .9;
 }
 .text-box {
-    background: #fff;
+    background: #eff0f3;
     max-width: 400px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 .text-box h4 {
     margin-top: 10px;

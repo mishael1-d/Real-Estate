@@ -37,7 +37,8 @@ const Content = () => {
         <div className="bottom-text">
           <img
             src="https://www.trulia.com/images/icons/txl3/illustrations/RentAHome.svg"
-            alt=""/>
+            alt=""
+          />
           <h2>Rent a home</h2>
           <p>
             With 35+ filters and custom keyword search, We can help you easily
@@ -48,7 +49,8 @@ const Content = () => {
         <div className="bottom-text">
           <img
             src="https://www.trulia.com/images/icons/txl3/illustrations/Neighborhoods.svg"
-            alt=""/>
+            alt=""
+          />
           <h2>See neighborhoods</h2>
           <p>
             With more neighborhood insights than any other real estate website,
@@ -60,17 +62,13 @@ const Content = () => {
       {/* <InputField/> */}
       <div className="explore-homes">
         <h2>Explore homes that we have</h2>
-        <p>Take a deep dive and browse homes for sale, original neighborhood photos, resident reviews and local insights to find what is right for you.</p>
+        <p>
+          Take a deep dive and browse homes for sale, original neighborhood
+          photos, resident reviews and local insights to find what is right for
+          you.
+        </p>
       </div>
-        {/* <div className="images">
-        {data.map((image, index)=>{
-              return (
-                <span key={index}><img src={image} alt="" /></span>
-              )
-            })}
-        </div> */}
-        {/* <img src={data[0]} alt="" srcset="" /> */}
-        <Slider/>
+      <Slider />
     </div>
   );
 };
