@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-// import Carousel from "react-elastic-carousel";
 import "../../src/styles/slider.css"
 import ImgComp from "./ImgComp"
 import image1 from "../buildings/image1.JPG";
@@ -21,13 +20,6 @@ function Slider() {
   }
   return (
     <div className="slider-container">
-      {/* <Carousel>
-        {images.items.map((item) => (
-          <div key={item.id} className="images">
-            <img src={item.image} alt="" className="image" />
-          </div>
-        ))}
-      </Carousel> */}
 {sliderArr.map((item, index)=>{
   return (
     <div key={index} className="slider" style={{transform:`translateX(${x}%)`}}>
